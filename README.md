@@ -13,10 +13,7 @@ Pyterion is a Python library that provides utilities to benchmark and analyse pe
 ------
 
 # Example
-The code below will produce the following output among other statistics and visualisations.
-
-![Example Benchmark](docs/images/example-benchmark.png)
-![Example Benchmark](docs/images/example-benchmark-pdf.svg)
+To benchmark a function, you can use the `benchmark` decorator.
 
 ```python
 import time
@@ -26,7 +23,7 @@ from pyterion import benchmark
 def function():
     time.sleep(0.001)
 ```
-Alternatively
+Or alternatively
 ```python
 from pyterion import benchmark
 
@@ -35,3 +32,10 @@ def function():
 
 benchmark(function)
 ```
+
+The above code below will produce the following output among other statistics and visualisations.
+
+![Example Benchmark](docs/images/example-benchmark.png)
+![Example Benchmark](docs/images/example-benchmark-pdf.svg)
+
+
