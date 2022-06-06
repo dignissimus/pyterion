@@ -25,6 +25,7 @@ def function():
 ```
 Or alternatively
 ```python
+import time
 from pyterion import benchmark
 
 def function():
