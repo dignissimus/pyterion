@@ -39,4 +39,6 @@ The above code below will produce the following output among other statistics an
 ![Example Benchmark](docs/images/example-benchmark.png)
 ![Example Benchmark](docs/images/example-benchmark-pdf.svg)
 
-
+# Related projects
+* [criterion.rs](https://github.com/bheisler/criterion.rs) - The Rust microbenchmarking library that pyterion is based on
+* [criterion](http://www.serpentine.com/criterion/) - The Haskell microbenchmarking library that inspired criterion.rs
