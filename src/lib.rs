@@ -12,7 +12,6 @@ fn pyterion_decorator(function: &PyAny) -> PyResult<()> {
 
 #[pymodule]
 fn pyterion(_py: Python, m: &PyModule) -> PyResult<()> {
-    m.add_function(wrap_pyfunction!(sum_as_string, m)?)?;
     m.add_function(wrap_pyfunction!(pyterion_decorator, m)?)?;
     Ok(())
 }
