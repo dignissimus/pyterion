@@ -12,7 +12,12 @@ Pyterion is a Python library that provides utilities to benchmark and analyse pe
 
 ------
 
-# Usage
+# Example
+The code below will produce the following output among other statistics and visualisations.
+
+![Example Benchmark](docs/images/example-benchmark.png)
+![Example Benchmark](docs/images/example-benchmark-pdf.svg)
+
 ```python
 import time
 from pyterion import benchmark
